@@ -1,7 +1,7 @@
 const fs = require('fs');
 const {resolve, join} = require('path');
 const cwd = require('cwd');
-const MongodbMemoryServer = require('mongodb-memory-server');
+const MongodbMemoryServer = require('mongodb-memory-server-core');
 const globalConfigPath = join(__dirname, 'globalConfig.json');
 
 const debug = require('debug')('jest-mongodb:setup');
