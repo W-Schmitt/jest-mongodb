@@ -2,6 +2,8 @@
 
 > Jest preset to run MongoDB memory server
 
+Same as [https://github.com/shelfio/jest-mongodb](shelfio)'s module, but with `mongodb-memory-server-global` replacing `mongodb-memory-server` for easier CI usage.
+
 ## Usage
 
 ### 0. Install

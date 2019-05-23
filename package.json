@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Run your tests using Jest & MongoDB in Memory server",
   "license": "MIT",
-  "repository": "shelfio/jest-mongodb",
+  "repository": "shelfio/W-Schmitt/jest-mongodb",
   "author": {
     "name": "Vlad Holubiev",
     "email": "vlad@shelf.io",
@@ -27,7 +27,7 @@
     "cwd": "0.10.0",
     "debug": "4.1.1",
     "mongodb": "3.2.5",
-    "mongodb-memory-server": "5.1.2"
+    "mongodb-memory-server-global": "^5.1.2"
   },
   "devDependencies": {
     "@shelf/eslint-config": "0.3.5",
